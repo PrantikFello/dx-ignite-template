@@ -3,7 +3,7 @@
 > **The high-velocity Rust Forge.** Ignite your Dioxus apps with a modular, subtractive foundation.
 
 [![Rust](https://img.shields.io/badge/rust-stable-orange.svg?style=for-the-badge&logo=rust)](https://www.rust-lang.org)
-[![Dioxus](https://img.shields.io/badge/dioxus-0.5-blue.svg?style=for-the-badge)](https://dioxuslabs.com)
+[![Dioxus](https://img.shields.io/badge/dioxus-0.7.1-blue.svg?style=for-the-badge)](https://dioxuslabs.com)
 [![Architecture](https://img.shields.io/badge/architecture-workspace-blueviolet.svg?style=for-the-badge)](#)
 
 **dx-ignite** is a professional-grade **Cargo Workspace** scaffold for building native cross-platform Rust applications.
