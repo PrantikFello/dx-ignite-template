@@ -46,11 +46,11 @@ cargo install dioxus-cli
 Run your desired target directly from the root:
 
 
-# Launch Desktop
+#### Launch Desktop
 ```bash
 dx serve --package desktop
 ``` 
-# Launch Mobile
+#### Launch Mobile
 ```bash
 dx serve --package mobile
 
