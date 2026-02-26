@@ -92,6 +92,6 @@ pub fn Home() -> Element {
 ---
 ### Scaffold with CARGO GENERATE
 ```bash
-cargo generate --git https://github.com/your-username/dx-ignite-template.git
+cargo generate --git https://github.com/PrantikFello/dx-ignite-template.git
 
 ```
