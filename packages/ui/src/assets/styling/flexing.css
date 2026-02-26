@@ -1,0 +1,36 @@
+.flexing_adaptive,
+.flexing_row,
+.flexing_iterations,
+.flexing_column,
+.flexing_iterations {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.borders_none {
+	border: none;
+	border-radius: 20px;
+}
+
+.flexing_column {
+	flex-direction: column;
+}
+.flexing_iterations {
+	flex-wrap: wrap;
+}
+.flexing_row {
+	flex-direction: row;
+}
+.flexing_reverse {
+	flex-direction: row-reverse;
+}
+.flexing_buttons {
+	width: 100%;
+	justify-content: flex-end;
+	gap: 30px;
+}
+@media (600px > width) {
+	.flexing_adaptive {
+		flex-direction: column;
+	}
+}

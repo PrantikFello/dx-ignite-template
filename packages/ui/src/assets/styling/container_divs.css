@@ -1,0 +1,35 @@
+.view {
+	margin: 0;
+	padding: 30px;
+	gap: 25px;
+}
+.container {
+	width: 90%;
+	justify-content: space-evenly;
+}
+
+.shadow_div {
+	padding: 10px;
+	background-color: var(--primary-color-6);
+	border-radius: 10px;
+	box-shadow:
+		3px 3px 7px var(--primary-color-1),
+		-3px -3px 7px var(--secondary-color-6);
+}
+.test_input_super {
+	gap: 10px;
+	width: 100%;
+}
+.test_input_div > *,
+.test_input_div {
+	width: 100%;
+	justify-content: space-evenly;
+}
+.test_input_div > Label {
+	width: 40%;
+}
+.image_preview {
+	width: clamp(200px, 150px + 50vw, 700px);
+	/*height: 300px;*/
+	border: 1px solid white;
+}

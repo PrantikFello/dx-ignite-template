@@ -1,0 +1,28 @@
+:root {
+	/*my custom color-schemes */
+
+	--accent-primary: var(--dark, 0 102 120) var(--light, 0 196 231);
+	--accent-primary-100: rgb(var(--accent-primary) / 1);
+	--accent-primary-80: rgb(var(--accent-primary) / 0.8);
+	--accent-primary-60: rgb(var(--accent-primary) / 0.6);
+	--accent-primary-40: rgb(var(--accent-primary) / 0.4);
+	--accent-primary-20: rgb(var(--accent-primary) / 0.2);
+
+	/*general settings*/
+	/*--omni-bg: var(--dark, var(--accent-primary-20)) var(--light, var(--accent-primary-20));*/
+
+	--omni-bg: var(--primary-color-6);
+	--omni-txt: var(--secondary-color);
+	--adaptive-padding: clamp(5px, 0px + 3vw, 30px);
+	/*--adaptive-weight: */
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	background-color: var(--omni-bg);
+	color: var(--omni-txt);
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
