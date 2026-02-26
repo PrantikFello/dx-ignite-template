@@ -1,0 +1,18 @@
+
+[template]
+cargo_generate_version = ">=0.17.0"
+ignore = [".git", "target", "Cargo.lock"]
+
+[placeholder]
+# This defines the variables users can fill in
+project-name = { label = "Project Name", help = "The name of your new Dioxus app", default = "my-ignite-app" }
+description = { label = "Description", help = "A short description for the README", default = "A high-velocity Dioxus app." }
+
+[conditional.'mobile']
+# Optional: Ask if they even want the mobile package
+prompt = "Do you want to include the mobile package?"
+default = true
+
+[hooks]
+# You can add a post-gen script here to delete folders if 'mobile' is false
+# but for now, the "subtractive" manual approach is cleaner for beginners.

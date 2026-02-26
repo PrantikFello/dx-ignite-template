@@ -1,6 +1,7 @@
+#![allow(non_camel_case_types, non_snake_case)]
 use dioxus::prelude::*;
 
-use ui::Navbar;
+use ui::{Navbar, DX_THEMER};
 use views::{Blog, Home};
 
 mod views;
@@ -27,8 +28,6 @@ fn App() -> Element {
 
     rsx! {
         // Global app resources
-        document::Link { rel: "stylesheet", href: MAIN_CSS }
-
         Router::<Route> {}
     }
 }

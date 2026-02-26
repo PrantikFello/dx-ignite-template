@@ -1,4 +1,3 @@
-```markdown
 # 🚀 dx-ignite-template
 
 > **The high-velocity Rust Forge.** Ignite your Dioxus apps with a modular, subtractive foundation.
@@ -7,7 +6,8 @@
 [![Dioxus](https://img.shields.io/badge/dioxus-0.5-blue.svg?style=for-the-badge)](https://dioxuslabs.com)
 [![Architecture](https://img.shields.io/badge/architecture-workspace-blueviolet.svg?style=for-the-badge)](#)
 
-**dx-ignite** is a professional-grade **Cargo Workspace** scaffold for building native cross-platform Rust applications. It is designed to be **subtractive**: start with a full-stack native skeleton and simply prune the crates you don't need to stay lean.
+**dx-ignite** is a professional-grade **Cargo Workspace** scaffold for building native cross-platform Rust applications.
+It is designed to be **subtractive**: start with a full-stack native skeleton and simply prune the crates you don't need to stay lean.
 
 ---
 
@@ -45,11 +45,13 @@ cargo install dioxus-cli
 
 Run your desired target directly from the root:
 
-```bash
-# Launch Desktop
-dx serve --package desktop
 
+# Launch Desktop
+```bash
+dx serve --package desktop
+``` 
 # Launch Mobile
+```bash
 dx serve --package mobile
 
 ```
@@ -88,11 +90,8 @@ pub fn Home() -> Element {
 * **License:** MIT
 
 ---
-
-**Built with ❤️ and 🦀 for the Rust community.**
-
-```
-
-**Would you like me to help you create a `cargo-generate.toml` so people can use `cargo generate --git dx-ignite-template` to start their projects with custom names automatically?**
+### Scaffold with CARGO GENERATE
+```bash
+cargo generate --git https://github.com/your-username/dx-ignite-template.git
 
 ```
